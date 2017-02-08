@@ -3,7 +3,7 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <packaging>pom</packaging>
-  <version>1.0.2</version>
+  <version>1.0.3-SNAPSHOT</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -18,7 +18,7 @@
 
   <scm>
      <developerConnection>scm:git:https://github.com/yesobo/maven-release-test.git</developerConnection>
-    <tag>my-app-1.0.2</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <build>
@@ -28,9 +28,9 @@
        <artifactId>maven-release-plugin</artifactId>
        <version>2.5.3</version>
        <configuration>
-         <checkModificationExcludes>
+         <!-- <checkModificationExcludes>
            <checkModificationExclude>./release-pom.xml</checkModificationExclude>
-         </checkModificationExcludes>
+         </checkModificationExcludes> -->
        </configuration>
      </plugin>
    </plugins>
