@@ -32,7 +32,7 @@
            <checkModificationExclude>release-pom.xml</checkModificationExclude>
          </checkModificationExcludes>
        </configuration>
-  </plugin>
+     </plugin>
    </plugins>
  </build>
 </project>
