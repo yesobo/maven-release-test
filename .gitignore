@@ -4,4 +4,4 @@ pom.xml.releaseBackup
 pom.xml.tag
 release-pom.xml
 release.properties
-pom.nexus
+pom.nexus.xml
